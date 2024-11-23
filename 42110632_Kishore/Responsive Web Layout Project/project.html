@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>City Information</title>
+  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+   
+    <link rel="stylesheet" href="project.css">
+</head>
+<body>
+    
+    <header class="header text-center py-3">
+        <h1 class="text-white">Cities</h1>
+    </header>
+
+    
+    <div class="container-fluid">
+        <div class="row">
+           
+            <nav class="col-md-3 sidebar py-3">
+                <ul class="nav flex-column nav-pills" id="city-tabs" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="london-tab" data-bs-toggle="pill" href="#london" role="tab" aria-controls="london" aria-selected="true">London</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="paris-tab" data-bs-toggle="pill" href="#paris" role="tab" aria-controls="paris" aria-selected="false">Paris</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="tokyo-tab" data-bs-toggle="pill" href="#tokyo" role="tab" aria-controls="tokyo" aria-selected="false">Tokyo</a>
+                    </li>
+                </ul>
+            </nav>
+
+            
+            <div class="col-md-9 py-4">
+                <div class="tab-content" id="city-tabContent">
+                  
+                    <div class="tab-pane fade show active" id="london" role="tabpanel" aria-labelledby="london-tab">
+                        <h2>LONDON</h2>
+                        <p>
+                            London, the capital of the United Kingdom, is a global hub for history, culture, and innovation. 
+                            It is home to iconic landmarks such as the Tower of London, Buckingham Palace, the Houses of Parliament, 
+                            and the London Eye.
+                        </p>
+                        <p>
+                            The city is also celebrated for its green spaces, including Hyde Park, Regent's Park, and the expansive Kew Gardens. 
+                            With its rich culinary scene, historic markets like Borough Market, and modern skyscrapers in the financial district, 
+                            London seamlessly blends tradition and modernity, attracting millions of visitors every year.
+                        </p>
+                    </div>
+
+                   
+                    <div class="tab-pane fade" id="paris" role="tabpanel" aria-labelledby="paris-tab">
+                        <h2>PARIS</h2>
+                        <p>
+                            Paris, the capital of France, is renowned for its art, fashion, gastronomy, and culture. 
+                            Its 19th-century cityscape is crisscrossed by wide boulevards and the River Seine.
+                        </p>
+                        <p>
+                            Known as the "City of Light," Paris is home to iconic landmarks such as the Eiffel Tower, Notre-Dame Cathedral, 
+                            and the Louvre Museum. The city offers exquisite cuisine, charming cafes, and beautiful parks like the Luxembourg Gardens.
+                        </p>
+                    </div>
+
+                   
+                    <div class="tab-pane fade" id="tokyo" role="tabpanel" aria-labelledby="tokyo-tab">
+                        <h2>TOKYO</h2>
+                        <p>
+                            Tokyo, Japan's bustling capital, mixes the ultramodern with the traditional, from neon-lit skyscrapers to historic temples. 
+                            The city is known for its vibrant food scene and efficient public transportation.
+                        </p>
+                        <p>
+                            Tokyo is home to the iconic Shibuya Crossing, the historic Meiji Shrine, and the expansive Ueno Park. 
+                            It offers a unique blend of cutting-edge technology and ancient traditions.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer text-center py-2">
+        <p class="text-white mb-0">Kishore</p>
+    </footer>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
